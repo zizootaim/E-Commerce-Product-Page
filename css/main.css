@@ -29,11 +29,13 @@ button {
 .btn {
   margin-left: 1rem;
   padding: .5rem 2rem;
-  font-size: 1rem;
-  font-weight: 700;
   background: #ff7d1a;
   color: #fff;
   border-radius: .3rem;
+  -webkit-box-shadow: 0 15px 25px #ffcea8;
+          box-shadow: 0 15px 25px #ffcea8;
+  font-size: .9rem;
+  font-weight: 700;
   -webkit-transition: all .5s;
   transition: all .5s;
 }

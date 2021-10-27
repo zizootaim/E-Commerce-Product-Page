@@ -34,11 +34,12 @@ button{
 .btn{
     margin-left: 1rem;
     padding: .5rem 2rem;
-    font-size: 1rem;
-    font-weight: 700;
     background: $orange;
     color: #fff;
     border-radius: .3rem;
+    box-shadow: 0 15px 25px hsl(26deg ,100% ,83%);
+    font-size: .9rem;
+    font-weight: 700;
     transition: all .5s;
     &:hover{
         box-shadow: 2px 4px 3px 1px $pale-orange;
@@ -350,7 +351,6 @@ main{
             .cart-btns{
                 @include Flex(flex-start,flex-start,row);
                 margin-top: 1.5rem;
-
                 .amount{
                     background: $pale-orange;
                     button{

@@ -1,5 +1,5 @@
 console.log("hello");
-
+// hello
 // Toggle Menu
 const open_icon = document.querySelector(".open-menu .fas"),
   nav = document.querySelector(".nav"),
